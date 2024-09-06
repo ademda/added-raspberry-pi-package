@@ -1,5 +1,5 @@
 TARGETS = client server
-CC = gcc
+CC := $(TARGET_CC)
 
 all: $(TARGETS)
 
